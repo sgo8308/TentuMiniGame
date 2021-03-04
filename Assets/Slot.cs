@@ -31,15 +31,17 @@ public class Slot : MonoBehaviour
             image.enabled = false;
             SetSellBtnInteractable(false);
             gameObject.name = "Empty";
+            itemname.text = "Empty";
+            price.text = "Empty".ToString();
         }
         else
         {
+            SetSellBtnInteractable(true);
             image.enabled = true;
             gameObject.name = item.name;
             image.sprite = item.sprite;
             itemname.text = item.itemname;
             price.text = item.price.ToString();
-            SetSellBtnInteractable(true);
         }
     }
 
