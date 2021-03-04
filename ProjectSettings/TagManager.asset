@@ -8,6 +8,8 @@ TagManager:
   - Item
   - Weapon
   - shop
+  - UMAIgnore
+  - sphere
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking; 
 
 public class Inventory : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class Inventory : MonoBehaviour
     private List<Slot> slots;
 
     public Store store;
+
+    itemequip ie = new itemequip();
 
     // Start is called before the first frame update
     void Start()
@@ -30,15 +34,16 @@ public class Inventory : MonoBehaviour
     void BuyItem(ItemProperty item) //아이템 구입
     {
         Debug.Log(item.name);
-        
-        var emptySlot = slots.Find(t => 
+        Debug.Log(item.categories);
+        StartCoroutine(ie.WebItemEquip("clientid", "james", item.name, item.categories, "buy"));
+        var emptySlot = slots.Find(t =>
         {
-        return t.item == null || t.item.name == string.Empty;
+            return t.item == null || t.item.name == string.Empty;
         });
         if (emptySlot != null)
         {
             emptySlot.SetItem(item);
         }
-        
+
     }
 }

@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class adtrigger : MonoBehaviour
 {
    public GameObject cube;
-
+    public RawImage rawImage;
 
     void OnTriggerEnter(Collider col)
     {
@@ -16,7 +17,9 @@ public class adtrigger : MonoBehaviour
             //Å¥ºê »ö±ò ¹Ù²î¾î¶ó
             
  
-              cube.GetComponent<Renderer>().material.color = Color.red;
+            rawImage.GetComponent<FashionAd>().ShowAd();
+
+
         }
  
     }
@@ -26,11 +29,10 @@ public class adtrigger : MonoBehaviour
         if (col.tag == "sphere")
         {
             Debug.Log("Trigger!");
- 
+
             //Å¥ºê »ö±ò ¹Ù²î¾î¶ó
- 
- 
-            cube.GetComponent<Renderer>().material.color = Color.yellow;
+
+            rawImage.texture = null;
         }
  
     }
