@@ -1,25 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class adtrigger : MonoBehaviour
 {
-   public GameObject cube;
     public RawImage rawImage;
+    public Button goToBuyButton;
+    string userId = "james";
 
     void OnTriggerEnter(Collider col)
     {
         if(col.tag == "sphere")
         {
             Debug.Log("Trigger!");
- 
-            //Å¥ºê »ö±ò ¹Ù²î¾î¶ó
-            
- 
-            rawImage.GetComponent<FashionAd>().ShowAd();
-
-
+            FashionAd fd = rawImage.GetComponent<FashionAd>();
+            fd.ShowAd();
+            goToBuyButton.gameObject.SetActive(true);
         }
  
     }
@@ -29,11 +27,9 @@ public class adtrigger : MonoBehaviour
         if (col.tag == "sphere")
         {
             Debug.Log("Trigger!");
-
-            //Å¥ºê »ö±ò ¹Ù²î¾î¶ó
-
             rawImage.texture = null;
+            goToBuyButton.gameObject.SetActive(false);
         }
- 
+
     }
 }

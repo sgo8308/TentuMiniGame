@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 
 public class Inventory : MonoBehaviour
 {
+
     public Transform rootSlot;
 
     private List<Slot> slots;
