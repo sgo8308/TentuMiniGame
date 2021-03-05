@@ -15,8 +15,8 @@ public class adtrigger : MonoBehaviour
         if(col.tag == "sphere")
         {
             Debug.Log("Trigger!");
-            FashionAd fd = rawImage.GetComponent<FashionAd>();
-            fd.ShowAd();
+            AdController ac = rawImage.GetComponent<AdController>();
+            ac.ShowAd();
             goToBuyButton.gameObject.SetActive(true);
         }
  

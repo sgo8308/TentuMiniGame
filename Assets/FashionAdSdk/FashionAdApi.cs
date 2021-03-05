@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using Newtonsoft.Json;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
-namespace Tentuplay.FashionAd
+namespace Tentuplay.FashionAdApi
 {
-    public class FashionAdApi : MonoBehaviour
+    public class FashionAd : MonoBehaviour
     {
-        public IEnumerator SendShowAd2(string userId, PanelShape panelShape)// 이 부분에서 ADIMPRESSION 할 때 adData 밖으로 빼야 함 api로 메소드들 다 밖으로 뺀다면
+        public IEnumerator SendShowAd2(string userId, PanelShape panelShape, AdData adData, RawImage adPanel)// 이 부분에서 ADIMPRESSION 할 때 adData 밖으로 빼야 함 api로 메소드들 다 밖으로 뺀다면
         {
-            yield return StartCoroutine(sendSetImageAdData(userId, panelShape));//먼저 광고 정보를 갖고온다
-            StartCoroutine(sendShowAd(adData.adSourceUrl));//광고 정보 갖고오면 이미지url넣어서 보여준다.
+            yield return StartCoroutine(sendSetImageAdData(userId, panelShape, adData));//먼저 광고 정보를 갖고온다
+            StartCoroutine(sendShowAd(adData.adSourceUrl, adPanel));//광고 정보 갖고오면 이미지url넣어서 보여준다.
             AdImpression(userId, adData.adId);
         }
 
-        IEnumerator sendShowAd(string url)
+        IEnumerator sendShowAd(string url, RawImage adPanel)
         {
             UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
             yield return www.SendWebRequest();
@@ -26,7 +27,7 @@ namespace Tentuplay.FashionAd
             }
             else
             {
-                this.GetComponent<RawImage>().texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+                adPanel.texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
             }
         }
 
@@ -80,7 +81,7 @@ namespace Tentuplay.FashionAd
                 Debug.Log("Form upload complete!");
             }
         }
-        private IEnumerator sendSetImageAdData(string userId, PanelShape adPanelShape)
+        private IEnumerator sendSetImageAdData(string userId, PanelShape adPanelShape, AdData adData)
         {
             List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
             formData.Add(new MultipartFormDataSection("userId", userId));
@@ -99,8 +100,14 @@ namespace Tentuplay.FashionAd
                 Debug.Log("Form upload complete!");
                 string data = www.downloadHandler.text;
                 Debug.Log(data);
-                adData = JsonConvert.DeserializeObject<AdData>(data);
+                AdData mAdData = JsonConvert.DeserializeObject<AdData>(data);
+                SetAdData(out adData, mAdData);
             }
+        }
+
+        private void SetAdData(out AdData adData, AdData adData2)
+        {
+            adData = adData2;
         }
 
         //보조 enum ,calss

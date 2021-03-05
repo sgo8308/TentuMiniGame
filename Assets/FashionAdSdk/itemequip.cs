@@ -12,8 +12,6 @@ public class itemequip : MonoBehaviour
         StartCoroutine(WebItemEquip(GameID, UserId, ItemID, Category, Action));
     }
 
-
-
     public IEnumerator WebItemEquip(String GameID, String UserId, String ItemID, String Category, String Action)
     {
         Debug.Log("helloworld");

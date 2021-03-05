@@ -13,8 +13,6 @@ public class Inventory : MonoBehaviour
 
     public Store store;
 
-    itemequip ie = new itemequip();
-
     // Start is called before the first frame update
     void Start()
     {
@@ -34,9 +32,11 @@ public class Inventory : MonoBehaviour
 
     void BuyItem(ItemProperty item) //아이템 구입
     {
+        itemequip ie = gameObject.AddComponent<itemequip>();
+
         Debug.Log(item.name);
         Debug.Log(item.categories);
-        StartCoroutine(ie.WebItemEquip("clientid", "james", item.name, item.categories, "buy"));
+        ie.UserPreferenceCalculate("clientid", "james", item.name, item.categories, "buy");
         var emptySlot = slots.Find(t =>
         {
             return t.item == null || t.item.name == string.Empty;
