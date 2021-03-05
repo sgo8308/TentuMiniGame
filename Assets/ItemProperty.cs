@@ -10,4 +10,5 @@ public class ItemProperty
     public string itemname;
     public string categories;
     public int price;
+    public string parts;
 }

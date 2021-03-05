@@ -10,6 +10,10 @@ public class Slot : MonoBehaviour
     public UnityEngine.UI.Button sellBtn;
     public UnityEngine.UI.Text itemname;
     public UnityEngine.UI.Text price;
+    public UnityEngine.UI.Image head;
+    public UnityEngine.UI.Image body;
+    public UnityEngine.UI.Image bottom;
+    public UnityEngine.UI.Image shoes;
 
     private void Awake()
     {
@@ -17,7 +21,11 @@ public class Slot : MonoBehaviour
         SetSellBtnInteractable(false);
     }
 
-    void SetSellBtnInteractable(bool b) 
+    void Update()
+    {
+    }
+
+        void SetSellBtnInteractable(bool b) 
     {
         if (sellBtn != null)
             sellBtn.interactable = b;
@@ -49,4 +57,26 @@ public class Slot : MonoBehaviour
     {
         SetItem(null);
     }
+
+    public void onClickItem()
+    {
+        Debug.Log(item.name);
+        Debug.Log(item.parts);
+        switch (item.parts)
+        {
+            case "head":
+                head.sprite = item.sprite;
+                break;
+            case "body":
+                body.sprite = item.sprite;
+                break;
+            case "bottom":
+                bottom.sprite = item.sprite;
+                break;
+            case "shoes":
+                shoes.sprite = item.sprite;
+                break;
+        }
+    }
+
 }

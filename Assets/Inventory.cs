@@ -30,7 +30,6 @@ public class Inventory : MonoBehaviour
     void BuyItem(ItemProperty item) //아이템 구입
     {
         Debug.Log(item.name);
-        Debug.Log(item.categories);
         
         var emptySlot = slots.Find(t => 
         {
