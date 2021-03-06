@@ -8,6 +8,8 @@ TagManager:
   - Item
   - Weapon
   - shop
+  - UMAIgnore
+  - sphere
   layers:
   - Default
   - TransparentFX
@@ -44,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 2002565923
+    locked: 0
+  - name: 2
+    uniqueID: 4166236577
     locked: 0
