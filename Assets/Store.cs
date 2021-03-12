@@ -42,6 +42,8 @@ public class Store : MonoBehaviour
     {
         if (onSlotClick != null) {
             onSlotClick(slot.item);
+            itemequip ie = gameObject.AddComponent<itemequip>();
+            ie.UserPreferenceCalculate("MINIGAME", "james", slot.item.name, slot.item.categories, "buy");
         }
     }
 }

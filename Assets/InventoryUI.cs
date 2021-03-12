@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    public GameObject InventoryPanel;
     bool activeInventory = false;
     public Transform invisibleSlot;
 
@@ -13,7 +12,6 @@ public class InventoryUI : MonoBehaviour
 
     private void Start()
     {
-        InventoryPanel.SetActive(false);
 
         arrangers = new List<Arranger>();
 
@@ -27,11 +25,6 @@ public class InventoryUI : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            activeInventory = !activeInventory;
-            InventoryPanel.SetActive(activeInventory);
-        }
     }
 
     public static void SwapCards(Transform sour, Transform dest)

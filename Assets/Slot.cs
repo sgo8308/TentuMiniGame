@@ -62,6 +62,8 @@ public class Slot : MonoBehaviour
     {
         Debug.Log(item.name);
         Debug.Log(item.parts);
+        itemequip ie = gameObject.AddComponent<itemequip>();
+        ie.UserPreferenceCalculate("MINIGAME", "james", item.name, item.categories, "equip");
         switch (item.parts)
         {
             case "head":
