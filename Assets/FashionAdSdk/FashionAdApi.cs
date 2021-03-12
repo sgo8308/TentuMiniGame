@@ -9,7 +9,7 @@ namespace Tentuplay.FashionAd
 {
     public class FashionAdApi : MonoBehaviour
     {
-
+        /*url을 통해 웹에서 이미지 받아와서 광고판 이미지 변경하기 */
         public IEnumerator sendShowAd(string url)
         {
             UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
@@ -56,7 +56,7 @@ namespace Tentuplay.FashionAd
                 Debug.Log(www.downloadHandler.text);
             }
         }
-        public IEnumerator sendAdImpression(string userId, string adId, string ownerId)
+        private IEnumerator sendAdImpression(string userId, string adId, string ownerId)
         {
             List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
             formData.Add(new MultipartFormDataSection("adId", adId));
@@ -100,7 +100,7 @@ namespace Tentuplay.FashionAd
                 var(adData);
             }
         }
-        //팝업 광고 보여주는 메소드
+        /* 팝업 광고 보여주는 메소드 */
         public IEnumerator ShowPopUpAd(string url, AdData adData, UnityEngine.Events.UnityAction buttonAction)
         {
             UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
@@ -144,7 +144,7 @@ namespace Tentuplay.FashionAd
         }
 
 
-        //팝업 광고 정보 받아와서 세팅해주는 메소드
+        /* 팝업 광고 정보 받아와서 세팅해주는 메소드 */
         public IEnumerator SetPopUpAdData(string userId, string adId, System.Action<FashionAdApi.AdData> var)
         {
             List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
@@ -163,7 +163,7 @@ namespace Tentuplay.FashionAd
             {
                 Debug.Log("Form upload complete!");
                 string data = www.downloadHandler.text;
-                Debug.Log(data);
+                Debug.Log("팝업광고 받아온 데이터는 : " + data);
                 AdData adData = JsonConvert.DeserializeObject<AdData>(data);
                 var(adData);
             }
