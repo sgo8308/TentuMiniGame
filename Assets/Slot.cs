@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Slot : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class Slot : MonoBehaviour
     public UnityEngine.UI.Image body;
     public UnityEngine.UI.Image bottom;
     public UnityEngine.UI.Image shoes;
+    public UnityEngine.UI.Image equipCheck;
+    UnityEngine.UI.Image headeq;
+    UnityEngine.UI.Image bodyeq;
+    UnityEngine.UI.Image bottomeq;
+    UnityEngine.UI.Image shoeseq;
 
     private void Awake()
     {
@@ -68,17 +74,24 @@ public class Slot : MonoBehaviour
         {
             case "head":
                 head.sprite = item.sprite;
+                Debug.Log(headeq);
+                equipCheck.gameObject.SetActive(true);
                 break;
             case "body":
                 body.sprite = item.sprite;
+                Debug.Log(bodyeq);
+                equipCheck.gameObject.SetActive(true);
                 break;
             case "bottom":
                 bottom.sprite = item.sprite;
+                Debug.Log(bottomeq);
+                equipCheck.gameObject.SetActive(true);
                 break;
             case "shoes":
                 shoes.sprite = item.sprite;
+                Debug.Log(shoeseq);
+                equipCheck.gameObject.SetActive(true);
                 break;
         }
     }
-
 }
