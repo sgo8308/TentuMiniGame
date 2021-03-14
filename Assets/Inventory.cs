@@ -39,6 +39,6 @@ public class Inventory : MonoBehaviour
         {
             emptySlot.SetItem(item);
         }
-        
     }
+
 }
