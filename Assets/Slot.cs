@@ -17,6 +17,9 @@ public class Slot : MonoBehaviour
     public UnityEngine.UI.Image bottom;
     public UnityEngine.UI.Image shoes;
     public UnityEngine.UI.Image equipCheck;
+    public UnityEngine.UI.Text log_text;
+    public UnityEngine.UI.ScrollRect scrollRect;
+
     private void Awake()
     {
         image.enabled = false;
@@ -72,71 +75,83 @@ public class Slot : MonoBehaviour
                 if (equipCheck.gameObject.activeSelf == true)
                 {
                     equipCheck.gameObject.SetActive(false);
-                    Debug.Log(item.name + "을 장착 해제.");
+                    log_text.text += item.itemname + "의상을 탈의 했습니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                     head.sprite = null;
                 }
                 else if (equipCheck.gameObject.activeSelf == false && head.sprite != null) 
                 {
-                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                    log_text.text += "다른 의상을 입고있어 착용이 불가능 합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 else
                 {
                     head.sprite = item.sprite;
                     equipCheck.gameObject.SetActive(true);
-                    Debug.Log(item.name + "을 장착했습니다.");
+                    log_text.text += item.itemname + " 의상을 착용합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 break;
             case "body":
                 if (equipCheck.gameObject.activeSelf == true)
                 {
                     equipCheck.gameObject.SetActive(false);
-                    Debug.Log(item.name + "을 장착 해제.");
+                    log_text.text += item.itemname + "의상을 탈의 했습니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                     body.sprite = null;
                 } else if (equipCheck.gameObject.activeSelf == false && body.sprite != null) 
                 {
-                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                    log_text.text += "다른 의상을 입고있어 착용이 불가능 합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 else
                 {
                     body.sprite = item.sprite;
                     equipCheck.gameObject.SetActive(true);
-                    Debug.Log(item.name + "을 장착했습니다.");
+                    log_text.text += item.itemname + " 의상을 착용합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 break;
             case "bottom":
                 if (equipCheck.gameObject.activeSelf == true)
                 {
                     equipCheck.gameObject.SetActive(false);
-                    Debug.Log(item.name + "을 장착 해제.");
+                    log_text.text += item.itemname + "의상을 탈의 했습니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                     bottom.sprite = null;
                 }
                 else if (equipCheck.gameObject.activeSelf == false && bottom.sprite != null)
                 {
-                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                    log_text.text += "다른 의상을 입고있어 착용이 불가능 합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 else
                 {
                     bottom.sprite = item.sprite;
                     equipCheck.gameObject.SetActive(true);
-                    Debug.Log(item.name + "을 장착했습니다.");
+                    log_text.text += item.itemname + " 의상을 착용합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 break;
             case "shoes":
                 if (equipCheck.gameObject.activeSelf == true)
                 {
                     equipCheck.gameObject.SetActive(false);
-                    Debug.Log(item.name + "을 장착 해제.");
+                    log_text.text += item.itemname + "의상을 탈의 했습니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                     shoes.sprite = null;
                 }
                 else if (equipCheck.gameObject.activeSelf == false && shoes.sprite != null) 
                 {
-                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                    log_text.text += "다른 의상을 입고있어 착용이 불가능 합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 else
                 {
                     shoes.sprite = item.sprite;
                     equipCheck.gameObject.SetActive(true);
-                    Debug.Log(item.name + "을 장착했습니다.");
+                    log_text.text += item.itemname + " 의상을 착용합니다.\n";
+                    scrollRect.verticalNormalizedPosition = 0.0f;
                 }
                 break;
         }
