@@ -654,6 +654,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 848775386}
   sellBtn: {fileID: 730506760}
   itemname: {fileID: 1131939892}
@@ -918,6 +919,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 2049470404}
   sellBtn: {fileID: 0}
   itemname: {fileID: 605849951}
@@ -1154,6 +1156,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 472905422}
   sellBtn: {fileID: 695317833}
   itemname: {fileID: 1809589667}
@@ -1571,6 +1574,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1312009926}
   sellBtn: {fileID: 962703222}
   itemname: {fileID: 1807316226}
@@ -2531,6 +2535,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1230468457}
   sellBtn: {fileID: 0}
   itemname: {fileID: 9683319}
@@ -3253,6 +3258,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 2104615373}
   sellBtn: {fileID: 1911239953}
   itemname: {fileID: 1129680546}
@@ -3623,7 +3629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dbac7399ba13ae4caa7872cd0ddf9c6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5502,6 +5508,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 510254372}
   sellBtn: {fileID: 886570127}
   itemname: {fileID: 1616979484}
@@ -11597,6 +11604,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 467110842}
   sellBtn: {fileID: 0}
   itemname: {fileID: 355628713}
@@ -12233,6 +12241,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 986709125}
   sellBtn: {fileID: 1743614314}
   itemname: {fileID: 1513011240}
@@ -13086,6 +13095,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 2032711932}
   sellBtn: {fileID: 940272749}
   itemname: {fileID: 1420805311}
@@ -13821,6 +13831,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1043651915}
   sellBtn: {fileID: 0}
   itemname: {fileID: 2120223665}
@@ -14142,6 +14153,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 862970099}
   sellBtn: {fileID: 0}
   itemname: {fileID: 1966267929}
@@ -14647,6 +14659,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 157911970}
   sellBtn: {fileID: 0}
   itemname: {fileID: 122416823}
@@ -14883,6 +14896,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 711750767}
   sellBtn: {fileID: 404113635}
   itemname: {fileID: 217485136}
@@ -15782,6 +15796,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 55252972}
   sellBtn: {fileID: 1082069215}
   itemname: {fileID: 1933763504}
@@ -19983,6 +19998,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1229277606}
   sellBtn: {fileID: 841333716}
   itemname: {fileID: 444452098}
@@ -20173,6 +20189,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 29575505}
   sellBtn: {fileID: 0}
   itemname: {fileID: 1328074642}
@@ -20856,6 +20873,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 393251493}
   sellBtn: {fileID: 352765181}
   itemname: {fileID: 856338886}
@@ -21745,6 +21763,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 243661568}
   sellBtn: {fileID: 1131163356}
   itemname: {fileID: 640962061}
@@ -22093,6 +22112,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1618024799}
   sellBtn: {fileID: 0}
   itemname: {fileID: 1730389092}
@@ -22576,6 +22596,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 414058845}
   sellBtn: {fileID: 848299488}
   itemname: {fileID: 1766280779}
@@ -22797,6 +22818,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1818718399}
   sellBtn: {fileID: 0}
   itemname: {fileID: 606950845}
@@ -23391,6 +23413,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1841868653}
   sellBtn: {fileID: 583867944}
   itemname: {fileID: 1560918945}
@@ -24495,6 +24518,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 473544775}
   sellBtn: {fileID: 1943266863}
   itemname: {fileID: 1851614850}
@@ -31162,6 +31186,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1565538975}
   sellBtn: {fileID: 1955479573}
   itemname: {fileID: 193064189}
@@ -34300,6 +34325,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 708713166}
   sellBtn: {fileID: 0}
   itemname: {fileID: 273691684}
@@ -34565,6 +34591,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 65957129}
   sellBtn: {fileID: 0}
   itemname: {fileID: 696872754}
@@ -34726,6 +34753,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 890787675}
   sellBtn: {fileID: 0}
   itemname: {fileID: 846272918}
@@ -35181,6 +35209,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1155982285}
   sellBtn: {fileID: 1925794810}
   itemname: {fileID: 26674978}
@@ -35495,7 +35524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dbac7399ba13ae4caa7872cd0ddf9c6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36079,6 +36108,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1662068285}
   sellBtn: {fileID: 933966297}
   itemname: {fileID: 1061491177}
@@ -36348,6 +36378,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 892308294}
   image: {fileID: 306484575}
   sellBtn: {fileID: 170229569}
   itemname: {fileID: 2075490634}
@@ -37490,6 +37521,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1977298451}
   sellBtn: {fileID: 1188700189}
   itemname: {fileID: 535761226}
@@ -37737,6 +37769,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1021228096}
   sellBtn: {fileID: 0}
   itemname: {fileID: 2104791753}
@@ -38027,6 +38060,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1501600669}
   sellBtn: {fileID: 1547708251}
   itemname: {fileID: 1692636955}
@@ -39961,6 +39995,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1947543838}
   sellBtn: {fileID: 1758096372}
   itemname: {fileID: 1980777905}
@@ -40426,6 +40461,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 394200854}
   sellBtn: {fileID: 998635774}
   itemname: {fileID: 960765364}
@@ -40826,6 +40862,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1843774075}
   sellBtn: {fileID: 219370467}
   itemname: {fileID: 720481526}
@@ -41910,6 +41947,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 663866193}
   sellBtn: {fileID: 0}
   itemname: {fileID: 319165722}
@@ -42417,6 +42455,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 97701044}
   sellBtn: {fileID: 0}
   itemname: {fileID: 1775602804}
@@ -43352,6 +43391,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 2135062625}
   sellBtn: {fileID: 487648402}
   itemname: {fileID: 641566517}
@@ -44505,6 +44545,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 135628037}
   sellBtn: {fileID: 900159412}
   itemname: {fileID: 490131649}
@@ -45015,6 +45056,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 1291154654}
   sellBtn: {fileID: 635059305}
   itemname: {fileID: 651986437}
@@ -46397,7 +46439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dbac7399ba13ae4caa7872cd0ddf9c6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47128,7 +47170,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dbac7399ba13ae4caa7872cd0ddf9c6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -48727,6 +48769,7 @@ MonoBehaviour:
     categories: 
     price: 0
     parts: 
+  inven: {fileID: 0}
   image: {fileID: 743508431}
   sellBtn: {fileID: 944082723}
   itemname: {fileID: 408406956}
