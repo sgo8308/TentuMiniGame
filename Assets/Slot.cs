@@ -7,6 +7,7 @@ public class Slot : MonoBehaviour
 {
     [HideInInspector]
     public ItemProperty item;
+    public Inventory inven;
     public UnityEngine.UI.Image image;
     public UnityEngine.UI.Button sellBtn;
     public UnityEngine.UI.Text itemname;
@@ -16,11 +17,6 @@ public class Slot : MonoBehaviour
     public UnityEngine.UI.Image bottom;
     public UnityEngine.UI.Image shoes;
     public UnityEngine.UI.Image equipCheck;
-    UnityEngine.UI.Image headeq;
-    UnityEngine.UI.Image bodyeq;
-    UnityEngine.UI.Image bottomeq;
-    UnityEngine.UI.Image shoeseq;
-
     private void Awake()
     {
         image.enabled = false;
@@ -73,24 +69,75 @@ public class Slot : MonoBehaviour
         switch (item.parts)
         {
             case "head":
-                head.sprite = item.sprite;
-                Debug.Log(headeq);
-                equipCheck.gameObject.SetActive(true);
+                if (equipCheck.gameObject.activeSelf == true)
+                {
+                    equipCheck.gameObject.SetActive(false);
+                    Debug.Log(item.name + "을 장착 해제.");
+                    head.sprite = null;
+                }
+                else if (equipCheck.gameObject.activeSelf == false && head.sprite != null) 
+                {
+                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                }
+                else
+                {
+                    head.sprite = item.sprite;
+                    equipCheck.gameObject.SetActive(true);
+                    Debug.Log(item.name + "을 장착했습니다.");
+                }
                 break;
             case "body":
-                body.sprite = item.sprite;
-                Debug.Log(bodyeq);
-                equipCheck.gameObject.SetActive(true);
+                if (equipCheck.gameObject.activeSelf == true)
+                {
+                    equipCheck.gameObject.SetActive(false);
+                    Debug.Log(item.name + "을 장착 해제.");
+                    body.sprite = null;
+                } else if (equipCheck.gameObject.activeSelf == false && body.sprite != null) 
+                {
+                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                }
+                else
+                {
+                    body.sprite = item.sprite;
+                    equipCheck.gameObject.SetActive(true);
+                    Debug.Log(item.name + "을 장착했습니다.");
+                }
                 break;
             case "bottom":
-                bottom.sprite = item.sprite;
-                Debug.Log(bottomeq);
-                equipCheck.gameObject.SetActive(true);
+                if (equipCheck.gameObject.activeSelf == true)
+                {
+                    equipCheck.gameObject.SetActive(false);
+                    Debug.Log(item.name + "을 장착 해제.");
+                    bottom.sprite = null;
+                }
+                else if (equipCheck.gameObject.activeSelf == false && bottom.sprite != null)
+                {
+                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                }
+                else
+                {
+                    bottom.sprite = item.sprite;
+                    equipCheck.gameObject.SetActive(true);
+                    Debug.Log(item.name + "을 장착했습니다.");
+                }
                 break;
             case "shoes":
-                shoes.sprite = item.sprite;
-                Debug.Log(shoeseq);
-                equipCheck.gameObject.SetActive(true);
+                if (equipCheck.gameObject.activeSelf == true)
+                {
+                    equipCheck.gameObject.SetActive(false);
+                    Debug.Log(item.name + "을 장착 해제.");
+                    shoes.sprite = null;
+                }
+                else if (equipCheck.gameObject.activeSelf == false && shoes.sprite != null) 
+                {
+                    Debug.Log("다른 의상을 입고있어 착용이 불가능 합니다.");
+                }
+                else
+                {
+                    shoes.sprite = item.sprite;
+                    equipCheck.gameObject.SetActive(true);
+                    Debug.Log(item.name + "을 장착했습니다.");
+                }
                 break;
         }
     }
