@@ -23,7 +23,6 @@ public class adtrigger : MonoBehaviour
             queue.Dequeue();
             isAdPanelSet = false;
         }
-
     }
 
     void OnTriggerEnter(Collider col)

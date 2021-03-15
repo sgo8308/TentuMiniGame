@@ -662,7 +662,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 221110294}
 --- !u!114 &27165626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,7 +925,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &33676578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,7 +1160,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1651459158}
 --- !u!114 &35082994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,7 +1576,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 153710515}
 --- !u!114 &60257411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2539,7 +2535,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &132305376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3261,7 +3256,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 824329367}
 --- !u!114 &162105177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5510,7 +5504,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1643561941}
 --- !u!114 &283213668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11605,7 +11598,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &378213030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12241,7 +12233,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 285480201}
 --- !u!114 &404701812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13094,7 +13085,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 921080724}
 --- !u!114 &434309815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13829,7 +13819,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &480293478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14150,7 +14139,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &488548036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14655,7 +14643,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &503374412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14891,7 +14878,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 76002300}
 --- !u!114 &503955430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15790,7 +15776,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 2035622629}
 --- !u!114 &554672796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19991,7 +19976,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1455011798}
 --- !u!114 &590216584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20181,7 +20165,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &595340949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20864,7 +20847,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 972328289}
 --- !u!114 &617269201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21753,7 +21735,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1239394436}
 --- !u!114 &650147501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22101,7 +22082,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &660628360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22584,7 +22564,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 805126827}
 --- !u!114 &677704657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22805,7 +22784,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &680658807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23399,7 +23377,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 875793122}
 --- !u!114 &704238439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24503,7 +24480,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 212784334}
 --- !u!114 &757456070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31170,7 +31146,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 415541623}
 --- !u!114 &1027779375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34308,7 +34283,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1302257904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34573,7 +34547,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1312279441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34734,7 +34707,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1314052041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35189,7 +35161,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1202979125}
 --- !u!114 &1336459338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36087,7 +36058,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 229274274}
 --- !u!114 &1404293071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36356,7 +36326,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 301887432}
 --- !u!114 &1421178660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37498,7 +37467,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1800980174}
 --- !u!114 &1516246920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37745,7 +37713,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1524255995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38035,7 +38002,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 669081388}
 --- !u!114 &1525136040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39969,7 +39935,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 544445804}
 --- !u!114 &1647473703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40434,7 +40399,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1131461483}
 --- !u!114 &1656541575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40834,7 +40798,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1856776648}
 --- !u!114 &1684805760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41918,7 +41881,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1757152563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42425,7 +42387,6 @@ MonoBehaviour:
   body: {fileID: 0}
   bottom: {fileID: 0}
   shoes: {fileID: 0}
-  equipCheck: {fileID: 0}
 --- !u!114 &1770833265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43360,7 +43321,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1165679338}
 --- !u!114 &1832525200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43728,18 +43688,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dcf28566245e1a141bb15c4a7c1635dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1842917787 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1516977511595043427, guid: f6592414dbfb19e45a094b80966545f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 2035896919}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1843443965
@@ -44513,7 +44461,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 597819381}
 --- !u!114 &1899798382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44793,7 +44740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401f505dbac4e4042ae72aed907ce4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rawImage: {fileID: 1842917787}
+  rawImage: {fileID: 0}
   goToBuyButton: {fileID: 5158041214700693820}
 --- !u!1 &1920587671
 GameObject:
@@ -45023,7 +44970,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 1986782036}
 --- !u!114 &1920916023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48735,7 +48681,6 @@ MonoBehaviour:
   body: {fileID: 2006090607}
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
-  equipCheck: {fileID: 243434299}
 --- !u!114 &2113155952
 MonoBehaviour:
   m_ObjectHideFlags: 0
