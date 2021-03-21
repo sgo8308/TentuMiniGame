@@ -862,6 +862,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 221110294}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &27165626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,6 +1129,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &33676578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1364,6 +1368,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1651459158}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &35082994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1782,6 +1788,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 153710515}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &60257411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3095,6 +3103,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &132305376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3818,6 +3828,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 824329367}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &162105177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6256,6 +6268,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1643561941}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &283213668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12465,6 +12479,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &378213030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13179,6 +13195,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 285480201}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &404701812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13845,6 +13863,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 921080724}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &434309815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14581,6 +14601,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &480293478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14903,6 +14925,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &488548036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15409,6 +15433,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &503374412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15646,6 +15672,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 76002300}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &503955430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16546,6 +16574,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 2035622629}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &554672796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21108,6 +21138,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1455011798}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &590216584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21299,6 +21331,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &595340949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21983,6 +22017,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 972328289}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &617269201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22873,6 +22909,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1239394436}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &650147501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23222,6 +23260,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &660628360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23706,6 +23746,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 805126827}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &677704657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23928,6 +23970,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &680658807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24616,6 +24660,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 875793122}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &704238439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25820,6 +25866,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 212784334}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &757456070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32917,6 +32965,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 415541623}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1027779375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35576,6 +35626,8 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\uCE90\uB9AD\uD130\uACF5\uB7B5\uB530\uB77C\uC7C1\uC774\uD398\uB974\uC18C\uB098"
       m_Image: {fileID: 0}
+    - m_Text: "\uD328\uC154\uB2C8\uC2A4\uD0C0\uD398\uB974\uC18C\uB098"
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -36832,6 +36884,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1302257904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37098,6 +37152,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1312279441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37260,6 +37316,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1314052041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37716,6 +37774,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1202979125}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1336459338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38615,6 +38675,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 229274274}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1404293071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38885,6 +38947,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 301887432}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1421178660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40250,6 +40314,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1800980174}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1516246920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40576,6 +40642,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1524255995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40867,6 +40935,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 669081388}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1525136040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43072,6 +43142,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 544445804}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1647473703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43538,6 +43610,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1131461483}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1656541575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43836,6 +43910,84 @@ Transform:
   m_Father: {fileID: 975264118}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1675122352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675122353}
+  - component: {fileID: 1675122355}
+  - component: {fileID: 1675122354}
+  m_Layer: 5
+  m_Name: Text_fashionista_persona
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1675122353
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675122352}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1713626991}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -110}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1675122354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675122352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uD328\uC154\uB2C8\uC2A4\uD0C0\uD398\uB974\uC18C\uB098\nMasker"
+--- !u!222 &1675122355
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675122352}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1684805755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44036,6 +44188,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1856776648}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1684805760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44463,6 +44617,7 @@ RectTransform:
   - {fileID: 1797418822}
   - {fileID: 1717477663}
   - {fileID: 247369393}
+  - {fileID: 1675122353}
   m_Father: {fileID: 1629045171}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45311,6 +45466,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1757152563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45825,6 +45982,8 @@ MonoBehaviour:
   bottom: {fileID: 0}
   shoes: {fileID: 0}
   equipCheck: {fileID: 0}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1770833265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46845,6 +47004,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1165679338}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1832525200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48151,6 +48312,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 597819381}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1899798382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48430,7 +48593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401f505dbac4e4042ae72aed907ce4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adPanel: {fileID: 0}
+  rawImage: {fileID: 0}
   goToBuyButton: {fileID: 5158041214700693820}
 --- !u!1 &1920587671
 GameObject:
@@ -48662,6 +48825,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 1986782036}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &1920916023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52966,6 +53131,8 @@ MonoBehaviour:
   bottom: {fileID: 1952370424}
   shoes: {fileID: 174806267}
   equipCheck: {fileID: 243434299}
+  log_text: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!114 &2113155952
 MonoBehaviour:
   m_ObjectHideFlags: 0

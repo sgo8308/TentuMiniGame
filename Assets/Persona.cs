@@ -9,7 +9,7 @@ public class Persona : MonoBehaviour
     public Text null_persona;
     public Text comuication_persona;
     public Text ddarajenge_persona;
-
+    public Text fashionista_persona;
 
     public void EventListening()
     {
@@ -20,24 +20,35 @@ public class Persona : MonoBehaviour
                 null_persona.gameObject.SetActive(true);
                 comuication_persona.gameObject.SetActive(false);
                 ddarajenge_persona.gameObject.SetActive(false);
+                fashionista_persona.gameObject.SetActive(false);
                 break;
             case 1:
                 Debug.Log(1);
                 null_persona.gameObject.SetActive(false);
                 comuication_persona.gameObject.SetActive(true);
                 ddarajenge_persona.gameObject.SetActive(false);
+                fashionista_persona.gameObject.SetActive(false);
                 break;
             case 2:
                 Debug.Log(2);
                 null_persona.gameObject.SetActive(false);
                 comuication_persona.gameObject.SetActive(false);
                 ddarajenge_persona.gameObject.SetActive(true);
+                fashionista_persona.gameObject.SetActive(false);
+                break;
+            case 3:
+                Debug.Log(2);
+                null_persona.gameObject.SetActive(false);
+                comuication_persona.gameObject.SetActive(false);
+                ddarajenge_persona.gameObject.SetActive(false);
+                fashionista_persona.gameObject.SetActive(true);
                 break;
             default:
                 Debug.Log(0);
                 null_persona.gameObject.SetActive(true);
                 comuication_persona.gameObject.SetActive(false);
                 ddarajenge_persona.gameObject.SetActive(false);
+                fashionista_persona.gameObject.SetActive(false);
                 break;
         }
     }
