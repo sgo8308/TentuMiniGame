@@ -250,6 +250,7 @@ namespace Tentuplay.FashionAd
                     if (lError == Error.Success)
                     {
                         this.GetComponent<RawImage>().texture = texture;
+                        this.transform.root.Find("GoToBuyButton").gameObject.SetActive(true);
                     }
                     else
                     {
@@ -259,6 +260,7 @@ namespace Tentuplay.FashionAd
                 else{
 
                     this.GetComponent<RawImage>().texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+                    this.transform.root.Find("GoToBuyButton").gameObject.SetActive(true);
                 }
 
 

@@ -9,6 +9,9 @@ public class FashionAd : MonoBehaviour
 {
     static string clientId; // 클라이언트(게임사) 아이디 세팅하기 
     static string userId = "james"; // 유저 아이디 갖고오기
+    public static bool isPanelSet = false;
+    public static bool isLogoPanelSet = false;
+
 
     //public FashionAdApi.AdData panelAdData;
     //public FashionAdApi.AdData popUpAdData;
@@ -73,6 +76,20 @@ public class FashionAd : MonoBehaviour
 
     //-------------------------여기부터는 AppNext 전용----------------------------
 
+
+    //private void Update()
+    //{
+    //    if (isPanelSet)
+    //    {
+    //        this.transform.root.Find("GoToBuyButton").gameObject.SetActive(true);
+    //    }
+    //    else
+    //    {
+    //        this.transform.root.Find("GoToBuyButton").gameObject.SetActive(false);
+
+    //    }
+    //}
+
     public FashionAdApi.NativeAdData panelAdData;
 
     public void ShowAd()
@@ -86,9 +103,13 @@ public class FashionAd : MonoBehaviour
         {
             url = "https://global.appnext.com/offerWallApi.aspx?tid=API&did=03382e13-716f-47c0-8b40-10ca1ad1abe1&id=99dd343b-c93a-418f-b393-19f968a387f3&ip=92.38.148.61&lockcat=Shopping&uagent=Dalvik%2f2.1.0+(Linux%3b+U%3b+Android+9%3b+Redmi+Note+7+Pro+MIUI%2fV10.3.9.0.PFHINXM)";
         }
-        else
+        else if(Persona.persona == "tracker")
         {
             url = "https://global.appnext.com/offerWallApi.aspx?tid=API&did=03382e13-716f-47c0-8b40-10ca1ad1abe1&id=99dd343b-c93a-418f-b393-19f968a387f3&ip=92.38.148.61&lockcat=Travel&uagent=Dalvik%2f2.1.0+(Linux%3b+U%3b+Android+9%3b+Redmi+Note+7+Pro+MIUI%2fV10.3.9.0.PFHINXM)";
+        }
+        else
+        {
+            url = "https://global.appnext.com/offerWallApi.aspx?tid=API&did=03382e13-716f-47c0-8b40-10ca1ad1abe1&id=99dd343b-c93a-418f-b393-19f968a387f3&ip=92.38.148.61&lockcat=Sports&uagent=Dalvik%2f2.1.0+(Linux%3b+U%3b+Android+9%3b+Redmi+Note+7+Pro+MIUI%2fV10.3.9.0.PFHINXM)";
         }
 
         StartCoroutine(ShowAdChain(url ,userId, (x) => panelAdData = x)); ;

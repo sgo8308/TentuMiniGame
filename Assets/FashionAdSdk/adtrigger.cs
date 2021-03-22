@@ -48,7 +48,6 @@ public class adtrigger : MonoBehaviour
                     fd.ShowAd();
                 }
                 goToBuyButton = col.transform.root.Find("GoToBuyButton").GetComponent<Button>();
-                goToBuyButton.gameObject.SetActive(true);
             }
 
             isUserInTrigArea = true;
