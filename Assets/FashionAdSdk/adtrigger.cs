@@ -81,7 +81,7 @@ public class adtrigger : MonoBehaviour
      */
     private void Run(object trigNumber)
     {
-        Thread.Sleep(2000);
+        Thread.Sleep(1000);
         if ((int)trigNumber == trigNum)
         {
             string message = "resetAdPanel";
