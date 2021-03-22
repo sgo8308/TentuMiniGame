@@ -10,7 +10,7 @@ public class Persona : MonoBehaviour
     public Text comuication_persona;
     public Text Tracker_persona;
     public Text fashionista_persona;
-    public static string persona = "communication";
+    public static string persona = "default";
 
     public void EventListening()
     {

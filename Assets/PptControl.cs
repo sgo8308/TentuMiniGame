@@ -17,7 +17,7 @@ public class PptControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             if (i <= 0)
             {
@@ -28,7 +28,7 @@ public class PptControl : MonoBehaviour
                 ppt.sprite = pptpage[i];
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Keypad3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
              if (i >= 12)
              {
