@@ -37,7 +37,15 @@ public class adtrigger : MonoBehaviour
                 Transform adPanelTF = col.transform.root.Find("RawImage");
                 adPanel = adPanelTF.GetComponent<RawImage>();
                 FashionAd fd = adPanelTF.GetComponent<FashionAd>();
-                fd.ShowAd();
+                if (fd == null)
+                {
+                    LogoNativeAd ld = adPanelTF.GetComponent<LogoNativeAd>();
+                    ld.ShowAd();
+                }
+                else
+                {
+                    fd.ShowAd();
+                }
                 goToBuyButton = col.transform.root.Find("GoToBuyButton").GetComponent<Button>();
                 goToBuyButton.gameObject.SetActive(true);
             }
