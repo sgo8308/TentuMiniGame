@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
         Jump();
         Dodge();
         Interation();
-        Swap();
+        //Swap();
     }
     void GetInput() 
     {

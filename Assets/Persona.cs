@@ -10,6 +10,7 @@ public class Persona : MonoBehaviour
     public Text comuication_persona;
     public Text Tracker_persona;
     public Text fashionista_persona;
+    public static string persona = "communication";
 
     public void EventListening()
     {
@@ -28,6 +29,7 @@ public class Persona : MonoBehaviour
                 comuication_persona.gameObject.SetActive(true);
                 Tracker_persona.gameObject.SetActive(false);
                 fashionista_persona.gameObject.SetActive(false);
+                persona = "communication";
                 break;
             case 2:
                 Debug.Log(2);
@@ -35,6 +37,8 @@ public class Persona : MonoBehaviour
                 comuication_persona.gameObject.SetActive(false);
                 Tracker_persona.gameObject.SetActive(true);
                 fashionista_persona.gameObject.SetActive(false);
+                persona = "tracker";
+
                 break;
             case 3:
                 Debug.Log(2);
@@ -42,6 +46,7 @@ public class Persona : MonoBehaviour
                 comuication_persona.gameObject.SetActive(false);
                 Tracker_persona.gameObject.SetActive(false);
                 fashionista_persona.gameObject.SetActive(true);
+                persona = "fashionItemPrefer";
                 break;
             default:
                 Debug.Log(0);
