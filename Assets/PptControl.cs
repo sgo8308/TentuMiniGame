@@ -30,7 +30,7 @@ public class PptControl : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Keypad3))
         {
-             if (i >= 13)
+             if (i >= 12)
              {
                  return;
              }
