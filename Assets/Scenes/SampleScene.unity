@@ -5542,7 +5542,7 @@ GameObject:
   - component: {fileID: 247369395}
   - component: {fileID: 247369394}
   m_Layer: 5
-  m_Name: Text_ddarajenge_persona
+  m_Name: Text_Tracker_persona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5599,7 +5599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uCE90\uB9AD\uD130\uACF5\uB7B5\uB530\uB77C\uC7C1\uC774\uD398\uB974\uC18C\uB098\nMasker"
+  m_Text: "\uC5EC\uD589\uC790\uD398\uB974\uC18C\uB098\nMasker"
 --- !u!222 &247369395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31333,7 +31333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &948274795
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31352,7 +31352,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 90, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &948274796
 MonoBehaviour:
@@ -35624,7 +35624,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\uCEE4\uBBA4\uB2C8\uCF00\uC774\uC158\uD398\uB974\uC18C\uB098"
       m_Image: {fileID: 0}
-    - m_Text: "\uCE90\uB9AD\uD130\uACF5\uB7B5\uB530\uB77C\uC7C1\uC774\uD398\uB974\uC18C\uB098"
+    - m_Text: "\uC5EC\uD589\uC790\uD398\uB974\uC18C\uB098"
       m_Image: {fileID: 0}
     - m_Text: "\uD328\uC154\uB2C8\uC2A4\uD0C0\uD398\uB974\uC18C\uB098"
       m_Image: {fileID: 0}
@@ -41239,10 +41239,10 @@ RectTransform:
   m_Father: {fileID: 948274795}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 45, y: -11}
+  m_SizeDelta: {x: 70, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529868109
 MonoBehaviour:
@@ -49067,7 +49067,8 @@ MonoBehaviour:
   dropdown: {fileID: 1210117979}
   null_persona: {fileID: 1797418823}
   comuication_persona: {fileID: 1717477664}
-  ddarajenge_persona: {fileID: 247369394}
+  Tracker_persona: {fileID: 247369394}
+  fashionista_persona: {fileID: 1675122354}
 --- !u!1 &1923045055
 GameObject:
   m_ObjectHideFlags: 0
@@ -52237,7 +52238,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2

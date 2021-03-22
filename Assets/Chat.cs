@@ -34,6 +34,7 @@ public class Chat : MonoBehaviour
     void Send(string data)  
     {
         ChatLog.text += "Masker: "+ data + "\n";
+        ChatLog.text += "Masker님의 커뮤니케이션 페르소나 Point +1";
         scrollRect.verticalNormalizedPosition = 0.0f;
     }
     void Sendbox(string data)
@@ -44,7 +45,7 @@ public class Chat : MonoBehaviour
     }
     IEnumerator WaitForIt()
     {
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(5.0f);
         chatbubble.gameObject.SetActive(false);
     }
 }
